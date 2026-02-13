@@ -103,14 +103,16 @@ Focus on:
 4. Actionability - Potential for building products around this narrative
 
 Categories to consider:
-- DeFi (new primitives, yield strategies, derivatives)
-- NFTs/Digital Assets (new standards, marketplaces, use cases)
-- Gaming/Entertainment (on-chain games, metaverse)
-- Infrastructure (scaling, tooling, dev experience)
-- Social (creator economy, social graphs, identity)
-- AI (AI agents, ML on-chain, AI+crypto)
-- DePIN (physical infrastructure, IoT, sensors)
-- Payments (stablecoins, remittance, merchant adoption)
+- DeFi (new primitives, yield strategies, derivatives, BNPL, delta-neutral)
+- NFTs/Digital Assets (new standards, compressed NFTs, ZK compression use cases)
+- Gaming/Entertainment (fully on-chain games, prediction markets, fantasy sports)
+- Infrastructure (Firedancer, ZK compression, storage, dev tooling, hardware wallets)
+- SocialFi (creator economy, social graphs, identity, time tokenization, retention)
+- AI (AI agents, MCP/x402 payments, autonomous trading, LLM+DeFi)
+- DePIN (physical infrastructure, IoT, sensors, Seeker mobile hardware)
+- Payments/PayFi (stablecoins, remittance, merchant adoption, cross-border, BNPL)
+- RWA (real-world assets, tokenized treasuries, equities, institutional adoption)
+- Mobile (Solana Seeker apps, dApp Store, PWAs, NFC payments, camera-based apps)
 
 Return your analysis as JSON with this structure:
 {

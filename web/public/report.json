@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-02-13T19:15:46.674916",
+  "period_days": 14,
+  "signal_summary": {
+    "onchain": {
+      "count": 9,
+      "summary": {
+        "total_signals": 9,
+        "by_type": {
+          "usage_spike": 8,
+          "defi_tvl": 1
+        },
+        "avg_strength": 0.9444444444444444,
+        "collection_time": "2026-02-13T19:13:58.987057"
+      }
+    },
+    "github": {
+      "count": 52,
+      "summary": {
+        "total_signals": 52,
+        "by_type": {
+          "topic_trend": 9,
+          "new_repo": 18,
+          "trending": 15,
+          "activity_spike": 10
+        },
+        "avg_strength": 0.5917307692307692,
+        "collection_time": "2026-02-13T19:13:58.987103"
+      }
+    },
+    "twitter": {
+      "count": 0,
+      "summary": {
+        "total_signals": 0,
+        "by_type": {},
+        "avg_strength": 0.0,
+        "collection_time": "2026-02-13T19:13:58.987111"
+      }
+    },
+    "total": 61
+  },
+  "narratives": [
+    {
+      "id": "mev-trading-infrastructure",
+      "title": "MEV and Automated Trading Infrastructure Maturation",
+      "summary": "The Solana ecosystem is seeing rapid development of MEV bots, arbitrage tools, and sophisticated trading SDKs. This indicates the market is maturing toward institutional-grade trading infrastructure with multiple repos focused on automated profit extraction strategies.",
+      "category": "DeFi",
+      "strength": 0.9,
+      "signals": [
+        {
+          "type": "trending",
+          "description": "Trending: SaoXuan/rust-mev-bot-shared (442 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: HyperBuildX/Polymarket-Trading-Bot-Rust (289 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: ChangeYourself0613/Solana-Arbitrage-Bot (286 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: 0xfnzero/sol-trade-sdk (271 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: Cetipoo/solana-onchain-arbitrage-bot (246 stars)",
+          "strength": 1.0
+        }
+      ],
+      "keywords": [
+        "MEV",
+        "arbitrage",
+        "trading bots",
+        "automated trading"
+      ],
+      "first_detected": "2026-02-13T19:14:24.979464",
+      "trend_direction": "accelerating"
+    },
+    {
+      "id": "ai-mcp-integration",
+      "title": "AI Agent Integration via MCP (Model Context Protocol)",
+      "summary": "AI agents are being integrated into Solana infrastructure through the Model Context Protocol, enabling autonomous blockchain interactions. The hydra-mcp-solana project suggests AI agents can now directly interact with Solana networks, opening possibilities for autonomous trading, portfolio management, and DeFi strategies.",
+      "category": "AI",
+      "strength": 0.85,
+      "signals": [
+        {
+          "type": "new_repo",
+          "description": "New repo: Scottcjn/bottube (22 stars in first days)",
+          "strength": 0.44
+        },
+        {
+          "type": "new_repo",
+          "description": "New repo: ladymillard/chai-sol (6 stars in first days)",
+          "strength": 0.12
+        },
+        {
+          "type": "trending",
+          "description": "Trending: hydra-mcp/hydra-mcp-solana (283 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: GalaxyLLMCI/lyraios (224 stars)",
+          "strength": 1.0
+        }
+      ],
+      "keywords": [
+        "MCP",
+        "AI agents",
+        "autonomous trading",
+        "hydra-mcp"
+      ],
+      "first_detected": "2026-02-13T19:14:24.979002",
+      "trend_direction": "emerging"
+    },
+    {
+      "id": "blink-ecosystem-expansion",
+      "title": "Solana Blinks Ecosystem Maturation",
+      "summary": "Solana Blinks (blockchain links) are gaining significant developer traction with 102 active repositories, indicating this social-first transaction format is moving from experimental to production-ready. This enables seamless blockchain interactions through social media and messaging platforms.",
+      "category": "SocialFi",
+      "strength": 0.8,
+      "signals": [],
+      "keywords": [
+        "blinks",
+        "social transactions",
+        "blockchain links",
+        "social integration"
+      ],
+      "first_detected": "2026-02-13T19:14:24.979909",
+      "trend_direction": "accelerating"
+    },
+    {
+      "id": "casino-gaming-defi",
+      "title": "On-Chain Casino and Prediction Market Infrastructure",
+      "summary": "There's growing development in fully on-chain casino games and prediction market bots, particularly around Polymarket integration. This represents a new category of entertainment DeFi that combines gaming mechanics with financial primitives.",
+      "category": "Gaming/Entertainment",
+      "strength": 0.75,
+      "signals": [
+        {
+          "type": "trending",
+          "description": "Trending: HyperBuildX/Polymarket-Trading-Bot-Rust (289 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: Tru3Bliss/Prediction-Market-Smart-Contract-Solana (222 stars)",
+          "strength": 1.0
+        }
+      ],
+      "keywords": [
+        "casino games",
+        "prediction markets",
+        "Polymarket",
+        "on-chain gaming"
+      ],
+      "first_detected": "2026-02-13T19:14:24.980306",
+      "trend_direction": "emerging"
+    },
+    {
+      "id": "volume-manipulation-tools",
+      "title": "Volume and Liquidity Management Tools",
+      "summary": "The emergence of volume bots and liquidity management tools suggests a maturing market where projects need sophisticated tools to bootstrap and maintain healthy trading activity. This represents tooling for the 'market making as a service' category.",
+      "category": "DeFi",
+      "strength": 0.7,
+      "signals": [],
+      "keywords": [
+        "volume bots",
+        "liquidity management",
+        "market making",
+        "trading tools"
+      ],
+      "first_detected": "2026-02-13T19:14:24.980640",
+      "trend_direction": "emerging"
+    },
+    {
+      "id": "developer-onboarding-acceleration",
+      "title": "Developer Onboarding and Education Tooling",
+      "summary": "Significant investment in developer education and starter kits indicates the ecosystem is focusing on reducing barriers to entry for new developers. The Solana Foundation's direct involvement suggests this is a strategic priority for ecosystem growth.",
+      "category": "Infrastructure",
+      "strength": 0.65,
+      "signals": [],
+      "keywords": [
+        "developer education",
+        "starter kits",
+        "onboarding",
+        "dev tools"
+      ],
+      "first_detected": "2026-02-13T19:14:24.980987",
+      "trend_direction": "emerging"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "mev-insurance-protocol",
+      "narrative_id": "mev-trading-infrastructure",
+      "title": "MEV Insurance Protocol",
+      "elevator_pitch": "Insurance marketplace where traders pay premiums to protect against MEV sandwich attacks, with underwriters earning yield from premiums while covering losses using ZK compression for massive scale.",
+      "description": "Protocol where retail traders pay small premiums (0.1-0.5% of trade size) to insure against MEV attacks. Underwriters stake capital to cover losses and earn yield from premiums. Uses ZK compression to track millions of insurance policies cheaply on L1. Smart contracts automatically detect sandwich attacks via transaction ordering and compensate victims. Revenue sharing between protocol and underwriters creates sustainable economics.",
+      "target_users": "High-frequency retail traders on Jupiter, Raydium who lose 2-5% annually to MEV",
+      "key_features": [
+        "Automatic MEV loss detection",
+        "Premium-based insurance model",
+        "ZK compressed policy storage",
+        "Underwriter yield farming"
+      ],
+      "tech_stack": [
+        "Anchor smart contracts",
+        "ZK Compression SDK",
+        "Jupiter API",
+        "Next.js dashboard"
+      ],
+      "competitive_advantage": "ZK compression enables insuring millions of small trades economically impossible on other chains",
+      "effort_level": "quarter",
+      "revenue_model": "10% of insurance premiums, plus protocol tokens for governance and staking",
+      "similar_projects": [
+        "Nexus Mutual (Ethereum)",
+        "Cover Protocol (defunct)"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "ZK compression implementation",
+        "MEV detection algorithms",
+        "React frontend"
+      ],
+      "build_guideline": "Week 1-2: Research MEV detection patterns, build detection algorithm. Week 3-4: Deploy basic insurance smart contract on devnet. Week 5-6: Integrate ZK compression for policy storage. Week 7-8: Build underwriter staking mechanism. Week 9-10: Create trader dashboard and Jupiter integration. Week 11-12: Launch on mainnet with initial underwriters.",
+      "bounty_links": [
+        {
+          "title": "Build Superteam Brazil LMS dApp",
+          "url": "https://superteam.fun/earn/listing/superteam-academy/",
+          "prize": "$4,800"
+        }
+      ],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.6,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": false,
+      "seeker_features": ""
+    },
+    {
+      "id": "agent-yield-optimizer",
+      "narrative_id": "ai-mcp-integration",
+      "title": "Agent Yield Optimizer",
+      "elevator_pitch": "AI agents autonomously compound DeFi yields across protocols using MCP integration, achieving higher returns than manual strategies through 24/7 monitoring and instant rebalancing.",
+      "description": "AI agents use MCP to monitor 50+ Solana DeFi protocols in real-time, automatically moving funds to highest-yielding opportunities. Agents execute complex strategies like delta-neutral farming, liquid staking arbitrage, and lending optimization. ZK compression tracks strategy performance for 5000x cheaper backtesting. Token extensions enable confidential position sizes. Blinks allow one-click strategy deployment from social media.",
+      "target_users": "Crypto fund managers and DeFi power users managing $50K+ portfolios",
+      "key_features": [
+        "Real-time yield monitoring",
+        "Autonomous rebalancing",
+        "Strategy backtesting with ZK compression"
+      ],
+      "tech_stack": [
+        "hydra-mcp-solana",
+        "Anchor smart contracts",
+        "Jupiter SDK"
+      ],
+      "competitive_advantage": "Solana's 150ms finality enables instant arbitrage opportunities impossible on slower chains",
+      "effort_level": "quarter",
+      "revenue_model": "20% performance fee on generated alpha above benchmark",
+      "similar_projects": [
+        "Yearn Finance",
+        "Enzyme Protocol"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "MCP protocol integration",
+        "DeFi strategy design"
+      ],
+      "build_guideline": "Week 1-2: MCP integration with Jupiter/Orca APIs. Week 3-4: Basic yield monitoring dashboard. Week 5-8: Agent decision engine and backtesting. Week 9-12: Live trading with safety limits, user onboarding.",
+      "bounty_links": [
+        {
+          "title": "Open Innovation Track: Build Anything on Solana",
+          "url": "https://superteam.fun/earn/listing/open-innovation-track-agents/",
+          "prize": "$5,000"
+        },
+        {
+          "title": "Build App with FairScale Reputation Infrastructure",
+          "url": "https://superteam.fun/earn/listing/fairathon/",
+          "prize": "$5,000"
+        },
+        {
+          "title": "Cortex Agent Twitter Thread",
+          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
+          "prize": "$3,100"
+        },
+        {
+          "title": "MoMNTum on Solana Research Bounty",
+          "url": "https://superteam.fun/earn/listing/superteam-earn-quest-momntum-on-solana-research-bounty/",
+          "prize": "$1,000"
+        }
+      ],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.9,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": false,
+      "seeker_features": ""
+    },
+    {
+      "id": "blink-tip-automation",
+      "narrative_id": "blink-ecosystem-expansion",
+      "title": "Blink Tip Bot",
+      "elevator_pitch": "AI agent that automatically distributes USDC tips to viral content creators across Twitter/TikTok based on engagement metrics, funded by brand sponsorship pools.",
+      "description": "Brands deposit USDC into smart contract pools targeting specific demographics. AI monitors social platforms for viral content matching brand criteria (fitness, tech, etc.), automatically sends Blink tips to creators. Creators receive instant payments, brands get authentic engagement tracking, platforms get transaction volume. Uses ZK compression for 5000x cheaper micro-transactions ($0.0001 per tip vs $0.50 on Ethereum).",
+      "target_users": "Mid-tier content creators (10K-500K followers) who monetize through brand partnerships",
+      "key_features": [
+        "AI content analysis & automatic tipping",
+        "Brand campaign dashboard & targeting",
+        "Creator analytics & payment tracking"
+      ],
+      "tech_stack": [
+        "Anchor smart contracts",
+        "OpenAI API for content analysis",
+        "Twitter/TikTok APIs",
+        "Jupiter aggregator for USDC"
+      ],
+      "competitive_advantage": "ZK compression makes micro-tips economically viable (5000x cheaper than Ethereum), Blinks enable frictionless social payments",
+      "effort_level": "quarter",
+      "revenue_model": "5% fee on brand campaign pools, premium analytics for creators at $29/month",
+      "similar_projects": [
+        "Creator Economy Report platforms",
+        "Brand ambassador programs"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "Python/Node.js for AI integration",
+        "Social media API integration",
+        "React dashboard"
+      ],
+      "build_guideline": "Week 1-2: Build tip pool smart contracts with ZK compression. Week 3-4: Integrate Twitter API and basic content analysis. Week 5-6: Add AI sentiment/engagement scoring. Week 7-8: Creator dashboard and Blink generation. Week 9-10: Brand campaign interface. Week 11-12: Beta test with 3 fitness brands and 50 creators.",
+      "bounty_links": [
+        {
+          "title": "Cortex Agent Twitter Thread",
+          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
+          "prize": "$3,100"
+        },
+        {
+          "title": "MoMNTum on Solana Research Bounty",
+          "url": "https://superteam.fun/earn/listing/superteam-earn-quest-momntum-on-solana-research-bounty/",
+          "prize": "$1,000"
+        },
+        {
+          "title": "Rust Undead Survivor Challenge",
+          "url": "https://superteam.fun/earn/listing/rust-undead-survivor-challenge",
+          "prize": "$800"
+        }
+      ],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.8,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": true,
+      "seeker_features": "Push notifications for tip receipts, NFC tap-to-verify creator identity at events"
+    },
+    {
+      "id": "social-betting-blinks",
+      "narrative_id": "casino-gaming-defi",
+      "title": "Social Betting Blinks",
+      "elevator_pitch": "Create and share prediction markets as embeddable Blinks on social platforms, turning any Twitter debate into a tradeable event with instant settlement.",
+      "description": "Users create micro-prediction markets around trending topics (sports, politics, crypto prices) and share them as Blinks on X/Discord. Anyone can bet with one click, no app download. ZK compression enables thousands of tiny markets for $0.01 each. Token extensions provide confidential betting amounts. Markets auto-resolve using oracles or community voting. Viral social sharing meets prediction market liquidity.",
+      "target_users": "Crypto Twitter influencers with 5K+ followers who want to monetize engagement",
+      "key_features": [
+        "One-click Blinks betting",
+        "ZK-compressed micro markets",
+        "Viral social sharing",
+        "Auto-oracle resolution"
+      ],
+      "tech_stack": [
+        "Anchor smart contracts",
+        "Blinks SDK",
+        "Switchboard oracles",
+        "ZK compression"
+      ],
+      "competitive_advantage": "Blinks enable social prediction markets without leaving Twitter - impossible on other chains",
+      "effort_level": "month",
+      "revenue_model": "2% trading fees + premium creator subscriptions for analytics",
+      "similar_projects": [
+        "Polymarket",
+        "Kalshi"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "React/TypeScript frontend",
+        "Blinks SDK integration"
+      ],
+      "build_guideline": "Week 1: Basic prediction market contract with binary outcomes. Week 2: Blinks integration for sharing markets. Week 3: ZK compression implementation for cheap market creation. Week 4: Oracle integration and auto-resolution. Launch with crypto Twitter beta.",
+      "bounty_links": [
+        {
+          "title": "Build Superteam Brazil LMS dApp",
+          "url": "https://superteam.fun/earn/listing/superteam-academy/",
+          "prize": "$4,800"
+        },
+        {
+          "title": "Build App with FairScale Reputation Infrastructure",
+          "url": "https://superteam.fun/earn/listing/fairathon/",
+          "prize": "$5,000"
+        }
+      ],
+      "colosseum_analysis": {
+        "reference_project": "alphafc",
+        "edition": "Radar",
+        "hackathon_score": 0.83,
+        "relevance": 0.6,
+        "insight": "Fan-operated sports team platform"
+      },
+      "seeker_compatible": true,
+      "seeker_features": "NFC for instant bet sharing between devices, camera for QR code market discovery"
+    },
+    {
+      "id": "privacy-market-maker",
+      "narrative_id": "volume-manipulation-tools",
+      "title": "ZK Market Maker",
+      "elevator_pitch": "Confidential market making service that generates volume and provides liquidity without revealing trading strategies using Solana's ZK Compression and Token Extensions.",
+      "description": "Market makers deploy capital into ZK-compressed pools where trading strategies, position sizes, and PnL remain private while still providing transparent liquidity metrics to token projects. Uses confidential transfers from Token Extensions to execute trades without leaking alpha. Projects pay for 'stealth liquidity' that looks organic while market makers protect their edge. Built for the new era where MEV protection and strategy privacy are premium services.",
+      "target_users": "Mid-cap token projects ($5M-50M FDV) needing organic-looking liquidity without signaling to competitors",
+      "key_features": [
+        "ZK-compressed trading pools",
+        "Confidential transfer execution",
+        "Organic volume patterns",
+        "Private PnL tracking"
+      ],
+      "tech_stack": [
+        "Anchor framework",
+        "ZK Compression SDK",
+        "Token Extensions",
+        "Light Protocol"
+      ],
+      "competitive_advantage": "Only possible on Solana due to ZK Compression (5000x cheaper state) and Token Extensions confidential transfers - no other chain has both primitives",
+      "effort_level": "quarter",
+      "revenue_model": "2-5% performance fee on generated volume + monthly SaaS fee $500-5000 based on pool size",
+      "similar_projects": [
+        "Wintermute market making",
+        "GSR trading services"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "ZK cryptography basics",
+        "TypeScript frontend",
+        "Market microstructure knowledge"
+      ],
+      "build_guideline": "Week 1-2: ZK compression integration and confidential transfer research. Week 3-4: Core AMM with privacy features MVP. Week 5-6: Strategy engine for organic patterns. Week 7-8: Dashboard for projects to monitor 'stealth metrics'. Week 9-10: Beta with 2-3 token projects. Week 11-12: Mainnet launch with pricing tiers.",
+      "bounty_links": [
+        {
+          "title": "Build Superteam Brazil LMS dApp",
+          "url": "https://superteam.fun/earn/listing/superteam-academy/",
+          "prize": "$4,800"
+        },
+        {
+          "title": "Cortex Agent Twitter Thread",
+          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
+          "prize": "$3,100"
+        }
+      ],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.7,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": false,
+      "seeker_features": ""
+    }
+  ],
+  "config_warnings": []
+}

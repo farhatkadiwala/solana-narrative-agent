@@ -1,0 +1,58 @@
+name: Regenerate Ideas
+
+on:
+  schedule:
+    - cron: "0 6 1,15 * *" # 1st and 15th of every month at 6am UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run analysis
+        env:
+          HELIUS_API_KEY: ${{ secrets.HELIUS_API_KEY }}
+          SOLANA_RPC_URL: ${{ secrets.SOLANA_RPC_URL }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LLM_PROVIDER: openrouter
+          LLM_MODEL: anthropic/claude-sonnet-4
+        run: |
+          python -c "
+          import asyncio, json
+          from agent import SolanaNarrativeAgent
+          from dataclasses import asdict
+
+          async def main():
+              agent = SolanaNarrativeAgent()
+              report = await agent.run(days_back=14, ideas_per_narrative=1)
+              report_dict = asdict(report)
+              for n in report_dict.get('narratives', []):
+                  if hasattr(n.get('first_detected'), 'isoformat'):
+                      n['first_detected'] = n['first_detected'].isoformat()
+              with open('web/public/report.json', 'w') as f:
+                  json.dump(report_dict, f, indent=2, default=str)
+              print(f'Generated {len(report_dict[\"ideas\"])} ideas')
+
+          asyncio.run(main())
+          "
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/public/report.json
+          git diff --cached --quiet || git commit -m "chore: regenerate ideas $(date +%Y-%m-%d)"
+          git push
