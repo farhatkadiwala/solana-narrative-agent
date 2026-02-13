@@ -229,13 +229,7 @@
         "React frontend"
       ],
       "build_guideline": "Week 1-2: Research MEV detection patterns, build detection algorithm. Week 3-4: Deploy basic insurance smart contract on devnet. Week 5-6: Integrate ZK compression for policy storage. Week 7-8: Build underwriter staking mechanism. Week 9-10: Create trader dashboard and Jupiter integration. Week 11-12: Launch on mainnet with initial underwriters.",
-      "bounty_links": [
-        {
-          "title": "Build Superteam Brazil LMS dApp",
-          "url": "https://superteam.fun/earn/listing/superteam-academy/",
-          "prize": "$4,800"
-        }
-      ],
+      "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
         "edition": "Breakout",
@@ -276,28 +270,7 @@
         "DeFi strategy design"
       ],
       "build_guideline": "Week 1-2: MCP integration with Jupiter/Orca APIs. Week 3-4: Basic yield monitoring dashboard. Week 5-8: Agent decision engine and backtesting. Week 9-12: Live trading with safety limits, user onboarding.",
-      "bounty_links": [
-        {
-          "title": "Open Innovation Track: Build Anything on Solana",
-          "url": "https://superteam.fun/earn/listing/open-innovation-track-agents/",
-          "prize": "$5,000"
-        },
-        {
-          "title": "Build App with FairScale Reputation Infrastructure",
-          "url": "https://superteam.fun/earn/listing/fairathon/",
-          "prize": "$5,000"
-        },
-        {
-          "title": "Cortex Agent Twitter Thread",
-          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
-          "prize": "$3,100"
-        },
-        {
-          "title": "MoMNTum on Solana Research Bounty",
-          "url": "https://superteam.fun/earn/listing/superteam-earn-quest-momntum-on-solana-research-bounty/",
-          "prize": "$1,000"
-        }
-      ],
+      "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
         "edition": "Breakout",
@@ -340,23 +313,7 @@
         "React dashboard"
       ],
       "build_guideline": "Week 1-2: Build tip pool smart contracts with ZK compression. Week 3-4: Integrate Twitter API and basic content analysis. Week 5-6: Add AI sentiment/engagement scoring. Week 7-8: Creator dashboard and Blink generation. Week 9-10: Brand campaign interface. Week 11-12: Beta test with 3 fitness brands and 50 creators.",
-      "bounty_links": [
-        {
-          "title": "Cortex Agent Twitter Thread",
-          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
-          "prize": "$3,100"
-        },
-        {
-          "title": "MoMNTum on Solana Research Bounty",
-          "url": "https://superteam.fun/earn/listing/superteam-earn-quest-momntum-on-solana-research-bounty/",
-          "prize": "$1,000"
-        },
-        {
-          "title": "Rust Undead Survivor Challenge",
-          "url": "https://superteam.fun/earn/listing/rust-undead-survivor-challenge",
-          "prize": "$800"
-        }
-      ],
+      "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
         "edition": "Breakout",
@@ -399,18 +356,7 @@
         "Blinks SDK integration"
       ],
       "build_guideline": "Week 1: Basic prediction market contract with binary outcomes. Week 2: Blinks integration for sharing markets. Week 3: ZK compression implementation for cheap market creation. Week 4: Oracle integration and auto-resolution. Launch with crypto Twitter beta.",
-      "bounty_links": [
-        {
-          "title": "Build Superteam Brazil LMS dApp",
-          "url": "https://superteam.fun/earn/listing/superteam-academy/",
-          "prize": "$4,800"
-        },
-        {
-          "title": "Build App with FairScale Reputation Infrastructure",
-          "url": "https://superteam.fun/earn/listing/fairathon/",
-          "prize": "$5,000"
-        }
-      ],
+      "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "alphafc",
         "edition": "Radar",
@@ -454,18 +400,7 @@
         "Market microstructure knowledge"
       ],
       "build_guideline": "Week 1-2: ZK compression integration and confidential transfer research. Week 3-4: Core AMM with privacy features MVP. Week 5-6: Strategy engine for organic patterns. Week 7-8: Dashboard for projects to monitor 'stealth metrics'. Week 9-10: Beta with 2-3 token projects. Week 11-12: Mainnet launch with pricing tiers.",
-      "bounty_links": [
-        {
-          "title": "Build Superteam Brazil LMS dApp",
-          "url": "https://superteam.fun/earn/listing/superteam-academy/",
-          "prize": "$4,800"
-        },
-        {
-          "title": "Cortex Agent Twitter Thread",
-          "url": "https://superteam.fun/earn/listing/cortex-agent-twitter/",
-          "prize": "$3,100"
-        }
-      ],
+      "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
         "edition": "Breakout",

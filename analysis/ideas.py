@@ -226,13 +226,40 @@ def _is_duplicate_of_superteam(title: str, description: str) -> bool:
 
 
 def _match_bounties(idea_tags: List[str], idea_text: str) -> List[dict]:
-    """Match an idea to relevant Superteam Earn bounties."""
+    """Match an idea to relevant Superteam Earn bounties.
+
+    Only matches when the bounty is genuinely about the same specific topic.
+    Generic bounties (like 'Build Anything on Solana') are excluded.
+    Common words are ignored to avoid false positives.
+    """
+    GENERIC_WORDS = {
+        "build", "app", "solana", "on", "the", "a", "an", "with", "for",
+        "open", "track", "anything", "challenge", "bounty", "research",
+        "innovation", "agent", "thread", "twitter", "dapp", "create",
+    }
     matches = []
     idea_lower = idea_text.lower()
+    idea_tags_lower = [t.lower() for t in idea_tags]
+
     for bounty in SUPERTEAM_EARN_BOUNTIES:
-        tag_overlap = sum(1 for t in bounty["tags"] if t in idea_lower or any(t in tag for tag in idea_tags))
-        text_match = sum(1 for word in bounty["title"].lower().split() if word in idea_lower)
-        if tag_overlap >= 1 or text_match >= 2:
+        # Skip overly generic bounties that match everything
+        if "open-ended" in bounty["tags"]:
+            continue
+
+        # Count domain-specific tag matches (ignore generic tags)
+        GENERIC_TAGS = {"development", "frontend", "content", "production", "mainnet", "open-ended"}
+        specific_tags = [t for t in bounty["tags"] if t not in GENERIC_TAGS]
+        tag_overlap = sum(
+            1 for t in specific_tags
+            if t in idea_lower or any(t in tag for tag in idea_tags_lower)
+        )
+
+        # Count meaningful title word matches (skip common words)
+        title_words = [w for w in bounty["title"].lower().split() if w not in GENERIC_WORDS and len(w) > 2]
+        text_match = sum(1 for word in title_words if word in idea_lower)
+
+        # Require strong signal: multiple specific tag hits OR significant title overlap
+        if tag_overlap >= 2 or (len(title_words) > 0 and text_match / len(title_words) >= 0.5):
             matches.append({"title": bounty["title"], "url": bounty["url"], "prize": bounty["prize"]})
     return matches
 
