@@ -84,11 +84,17 @@ export default function IdeaCard({
               </span>
             )}
             <span className="text-xs font-medium text-pill tracking-[-0.24px] leading-[0.93] px-2 py-1 rounded bg-narrative-bg border border-narrative-border hover:bg-[#E8E8E8] transition-colors">
-              {idea.effort_level}
+              {idea.effort_level === "weekend"
+                ? "Weekend project"
+                : idea.effort_level === "month"
+                  ? "~1 month"
+                  : idea.effort_level === "quarter"
+                    ? "~3 months"
+                    : idea.effort_level}
             </span>
             {idea.seeker_compatible && (
               <span className="text-xs font-medium text-pill tracking-[-0.24px] leading-[0.93] px-2 py-1 rounded bg-narrative-bg border border-narrative-border hover:bg-[#E8E8E8] transition-colors">
-                Seeker
+                Seeker compatible
               </span>
             )}
           </div>
