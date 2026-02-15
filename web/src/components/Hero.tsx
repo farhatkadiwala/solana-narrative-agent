@@ -16,11 +16,8 @@ export default function Hero({ generatedAt }: { generatedAt: string | null }) {
   return (
     <div className="flex items-center justify-between bg-hero border border-hero-border rounded-[6px] px-10 py-5 h-[124px] shadow-[0_1px_0_0_#000] mb-8">
       <div>
-        <div className="text-xs text-white/50 tracking-[-0.3px] mb-0.5">
-          with the
-        </div>
         <div className="text-[28px] font-semibold text-white tracking-[-1.4px] leading-[1.1]">
-          Build while you bear market
+          Build while you bear <span className="text-16px font-medium text-grey tracking-[-1.1px]"> (with the) </span>  market
         </div>
       </div>
       <div className="text-right">
