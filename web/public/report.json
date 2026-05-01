@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T07:22:49.653298",
+  "generated_at": "2026-05-01T08:05:26.840519",
   "period_days": 14,
   "signal_summary": {
     "onchain": {
@@ -11,21 +11,21 @@
           "usage_spike": 8
         },
         "avg_strength": 0.9444444444444444,
-        "collection_time": "2026-04-15T07:21:34.139358"
+        "collection_time": "2026-05-01T08:04:22.763356"
       }
     },
     "github": {
-      "count": 41,
+      "count": 46,
       "summary": {
-        "total_signals": 41,
+        "total_signals": 46,
         "by_type": {
           "topic_trend": 9,
-          "new_repo": 12,
+          "new_repo": 15,
           "trending": 15,
-          "activity_spike": 5
+          "activity_spike": 7
         },
-        "avg_strength": 0.7458536585365854,
-        "collection_time": "2026-04-15T07:21:34.139392"
+        "avg_strength": 0.7258695652173913,
+        "collection_time": "2026-05-01T08:04:22.763389"
       }
     },
     "twitter": {
@@ -34,311 +34,195 @@
         "total_signals": 0,
         "by_type": {},
         "avg_strength": 0.0,
-        "collection_time": "2026-04-15T07:21:34.139397"
+        "collection_time": "2026-05-01T08:04:22.763395"
       }
     },
-    "total": 50
+    "total": 55
   },
   "narratives": [
     {
-      "id": "mev-democratization-tooling",
-      "title": "MEV Democratization Through Open-Source Bot Infrastructure",
-      "summary": "MEV extraction is becoming more accessible through proliferation of open-source arbitrage bots, volume bots, and pump analyzers. This signals a shift from institutional-only MEV to retail-accessible automated trading strategies.",
-      "category": "DeFi",
+      "id": "blinks-developer-adoption",
+      "title": "Solana Blinks Mass Developer Adoption",
+      "summary": "Solana Blinks (blockchain links) are seeing explosive developer adoption with 126 active repositories, indicating a new primitive for creating shareable, executable blockchain interactions directly through social media and messaging.",
+      "category": "Infrastructure",
       "strength": 0.9,
-      "signals": [
-        {
-          "type": "new_repo",
-          "description": "New repo: leoetteeyttxetwlamotsqu/uniswap-arbitrage-bot-2026 (41 stars in first days)",
-          "strength": 0.82
-        },
-        {
-          "type": "new_repo",
-          "description": "New repo: alabaro-protocol/solana-arbitrage-bot (32 stars in first days)",
-          "strength": 0.64
-        },
-        {
-          "type": "trending",
-          "description": "Trending: ChangeYourself0613/Solana-Arbitrage-Bot (284 stars)",
-          "strength": 1.0
-        },
-        {
-          "type": "trending",
-          "description": "Trending: Cetipoo/solana-onchain-arbitrage-bot (250 stars)",
-          "strength": 1.0
-        }
-      ],
+      "signals": [],
       "keywords": [
-        "MEV bots",
-        "arbitrage",
-        "pump analyzer",
-        "automated trading",
-        "retail MEV"
+        "blinks",
+        "blockchain links",
+        "social integration",
+        "shareable transactions"
       ],
-      "first_detected": "2026-04-15T07:21:49.262388",
+      "first_detected": "2026-05-01T08:04:37.176838",
       "trend_direction": "accelerating"
     },
     {
-      "id": "ai-payments-infrastructure",
-      "title": "AI Agents Meet Payment Rails: x402 Protocol Emergence",
-      "summary": "AI agents are gaining native payment capabilities through protocols like x402, enabling autonomous financial interactions. This represents a convergence of AI and PayFi where agents can make micro-payments, access APIs, and execute transactions without human intervention.",
+      "id": "ai-trading-automation",
+      "title": "AI-Powered Trading Automation on Solana",
+      "summary": "Developers are rapidly building AI trading bots and automated systems specifically for Solana DeFi, with multiple new repositories gaining significant traction. This includes AI agents for pump.fun trading, MEV bots, and intelligent routing systems.",
       "category": "AI",
       "strength": 0.85,
       "signals": [
         {
           "type": "new_repo",
-          "description": "New repo: genoshide/wallet-mcp (8 stars in first days)",
-          "strength": 0.16
+          "description": "New repo: Udacity-ai/pumpfun-ai-trading-bot (144 stars in first days)",
+          "strength": 1.0
         },
         {
           "type": "new_repo",
-          "description": "New repo: elisymlabs/elisym (7 stars in first days)",
-          "strength": 0.14
+          "description": "New repo: muxprotocol/solana-trading-bot (79 stars in first days)",
+          "strength": 1.0
+        },
+        {
+          "type": "new_repo",
+          "description": "New repo: meat29/solana-sniper-mev-bot (31 stars in first days)",
+          "strength": 0.62
         },
         {
           "type": "trending",
-          "description": "Trending: qntx/x402-openai-python (260 stars)",
+          "description": "Trending: BlockRunAI/ClawRouter (6413 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: lawmaster10/howcryptoworksbook (816 stars)",
           "strength": 1.0
         }
       ],
       "keywords": [
-        "x402",
-        "AI agents",
-        "autonomous payments",
-        "MCP",
-        "API payments"
+        "AI trading bots",
+        "MEV",
+        "automated trading",
+        "pump.fun",
+        "ClawRouter"
       ],
-      "first_detected": "2026-04-15T07:21:49.262126",
-      "trend_direction": "emerging"
-    },
-    {
-      "id": "blinks-social-commerce",
-      "title": "Blinks-Powered Social Commerce Revolution",
-      "summary": "Solana Blinks are enabling seamless transaction embedding in social media, creating new social commerce primitives. The high developer activity suggests this is becoming a key distribution mechanism for DeFi and NFT interactions.",
-      "category": "SocialFi",
-      "strength": 0.8,
-      "signals": [],
-      "keywords": [
-        "solana blinks",
-        "social commerce",
-        "embedded transactions",
-        "social distribution"
-      ],
-      "first_detected": "2026-04-15T07:21:49.262616",
+      "first_detected": "2026-05-01T08:04:37.176553",
       "trend_direction": "accelerating"
     },
     {
-      "id": "institutional-defi-onboarding",
-      "title": "Institutional DeFi Onboarding Through Validator Infrastructure",
-      "summary": "New validator tooling and educational resources suggest institutions are building Solana infrastructure. Combined with high liquid staking activity, this indicates serious institutional capital entering the ecosystem beyond just trading.",
-      "category": "Infrastructure",
+      "id": "pump-fun-ecosystem-expansion",
+      "title": "Pump.fun Ecosystem Tooling and Analytics",
+      "summary": "A specialized ecosystem is emerging around pump.fun with dedicated trading bots, volume manipulation tools, and analytics platforms, indicating the memecoin launchpad has reached sufficient scale to support derivative tooling.",
+      "category": "DeFi",
       "strength": 0.75,
-      "signals": [],
-      "keywords": [
-        "validator bots",
-        "institutional infrastructure",
-        "liquid staking",
-        "enterprise adoption"
-      ],
-      "first_detected": "2026-04-15T07:21:49.262843",
-      "trend_direction": "emerging"
-    },
-    {
-      "id": "formal-verification-security",
-      "title": "Formal Verification Becoming DeFi Standard",
-      "summary": "Advanced security tooling like Certora's formal verification is gaining traction in Solana DeFi. This suggests the ecosystem is maturing toward institutional-grade security standards as TVL grows.",
-      "category": "Infrastructure",
-      "strength": 0.7,
       "signals": [
         {
+          "type": "new_repo",
+          "description": "New repo: Udacity-ai/pumpfun-ai-trading-bot (144 stars in first days)",
+          "strength": 1.0
+        },
+        {
+          "type": "new_repo",
+          "description": "New repo: muxprotocol/solana-trading-bot (79 stars in first days)",
+          "strength": 1.0
+        },
+        {
+          "type": "new_repo",
+          "description": "New repo: meat29/solana-sniper-mev-bot (31 stars in first days)",
+          "strength": 0.62
+        },
+        {
           "type": "trending",
-          "description": "Trending: Certora/CertoraProver (298 stars)",
+          "description": "Trending: happyboy4ty25/pump-analyzer (512 stars)",
           "strength": 1.0
         }
       ],
       "keywords": [
-        "formal verification",
-        "DeFi security",
-        "Certora",
-        "smart contract auditing"
+        "pump.fun",
+        "memecoin tools",
+        "volume bots",
+        "trading analytics",
+        "launchpad ecosystem"
       ],
-      "first_detected": "2026-04-15T07:21:49.263069",
+      "first_detected": "2026-05-01T08:04:37.177342",
+      "trend_direction": "accelerating"
+    },
+    {
+      "id": "meteora-alpha-vaults",
+      "title": "Sophisticated DeFi Yield Strategies via Alpha Vaults",
+      "summary": "Meteora's alpha vault strategies are gaining developer attention as a new DeFi primitive for automated, sophisticated yield farming. This represents evolution from simple LP positions to algorithmic strategy management.",
+      "category": "DeFi",
+      "strength": 0.7,
+      "signals": [
+        {
+          "type": "new_repo",
+          "description": "New repo: whisdev/Solana-Meteora-Alpha-Vault (109 stars in first days)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: 0xfnzero/sol-trade-sdk (300 stars)",
+          "strength": 1.0
+        },
+        {
+          "type": "trending",
+          "description": "Trending: ChangeYourself0613/Solana-Arbitrage-Bot (285 stars)",
+          "strength": 1.0
+        }
+      ],
+      "keywords": [
+        "Meteora",
+        "alpha vaults",
+        "yield farming",
+        "algorithmic strategies",
+        "automated DeFi"
+      ],
+      "first_detected": "2026-05-01T08:04:37.177099",
+      "trend_direction": "emerging"
+    },
+    {
+      "id": "solana-ai-developer-resources",
+      "title": "Solana AI Development Infrastructure",
+      "summary": "The Solana Foundation is actively building AI-focused developer resources and tooling, with 'awesome-solana-ai' and educational materials trending, suggesting institutional push for AI integration with Solana's infrastructure.",
+      "category": "AI",
+      "strength": 0.65,
+      "signals": [],
+      "keywords": [
+        "Solana Foundation",
+        "AI infrastructure",
+        "developer education",
+        "institutional AI"
+      ],
+      "first_detected": "2026-05-01T08:04:37.177599",
       "trend_direction": "emerging"
     }
   ],
   "ideas": [
     {
-      "id": "mev-insurance-pools",
-      "narrative_id": "mev-democratization-tooling",
-      "title": "MEV Insurance Pools",
-      "elevator_pitch": "Insurance pools that automatically compensate retail traders for MEV losses while funding themselves through premium collection and counter-MEV strategies.",
-      "description": "Users deposit into insurance pools that monitor their transactions for MEV extraction (sandwich attacks, frontrunning). When MEV is detected, the pool automatically compensates the user from a shared fund. The pool generates revenue by charging premiums and running counter-MEV strategies using the same open-source bots, creating a self-sustaining system that turns MEV defense into a profitable business model.",
-      "target_users": "Active DeFi traders making 10+ swaps monthly who lose $50-200/month to MEV",
+      "id": "blinks-debug-studio",
+      "narrative_id": "blinks-developer-adoption",
+      "title": "Blinks Debug Studio",
+      "elevator_pitch": "Visual IDE for developers to build, test, and debug Solana Blinks with real-time preview and transaction simulation before deployment.",
+      "description": "A web-based development environment specifically for Blinks creation with drag-drop UI builder, transaction flow visualization, and integrated testing against mainnet/devnet. Developers can preview how their Blinks render across platforms (Twitter, Discord, Telegram), simulate user interactions, and catch errors before going live. Includes templates for common use cases like NFT minting, token swaps, and governance voting.",
+      "target_users": "Solana developers building Blinks-enabled applications and businesses creating shareable transaction experiences",
       "key_features": [
-        "Real-time MEV loss detection",
-        "Automatic compensation payouts",
-        "Premium-based insurance model",
-        "Counter-MEV strategy execution"
+        "Visual Blinks builder with drag-drop interface",
+        "Cross-platform preview (Twitter/Discord/Telegram)",
+        "Transaction simulation and debugging",
+        "Template library for common patterns",
+        "One-click deployment to Blinks registry"
       ],
       "tech_stack": [
-        "Anchor smart contracts",
-        "Helius webhooks",
-        "Jupiter API",
-        "React/Next.js dashboard"
+        "Next.js with Blinks SDK",
+        "Anchor framework",
+        "Solana Web3.js",
+        "Monaco Editor",
+        "Tailwind CSS"
       ],
-      "competitive_advantage": "Solana's 400ms slots enable real-time MEV detection and instant compensation impossible on Ethereum; ZK compression makes per-transaction monitoring affordable at scale",
-      "effort_level": "quarter",
-      "revenue_model": "15% of insurance premiums + 30% of counter-MEV profits generated by pool strategies",
-      "similar_projects": [
-        "Nexus Mutual (insurance)",
-        "Flashbots Protect (MEV protection)"
-      ],
-      "skills_required": [
-        "Rust/Anchor smart contracts",
-        "MEV detection algorithms",
-        "React/TypeScript frontend",
-        "Financial modeling"
-      ],
-      "build_guideline": "Week 1-2: Deploy basic insurance pool contract with deposit/withdraw. Week 3-4: Integrate Helius webhooks for transaction monitoring. Week 5-6: Build MEV detection engine using Jupiter price data. Week 7-8: Implement automatic compensation logic. Week 9-10: Add counter-MEV bot integration. Week 11-12: Launch with 50 beta testers, iterate on detection accuracy.",
-      "bounty_links": [],
-      "colosseum_analysis": {
-        "reference_project": "latinum",
-        "edition": "Breakout",
-        "hackathon_score": 0.89,
-        "relevance": 0.7,
-        "insight": "MCP payment middleware for AI agents"
-      },
-      "seeker_compatible": false,
-      "seeker_features": "",
-      "relevant_links": [
-        {
-          "title": "Helius Enhanced Webhooks Documentation",
-          "url": "https://docs.helius.dev/webhooks-and-websockets/enhanced-websockets",
-          "type": "docs"
-        },
-        {
-          "title": "Jupiter API Documentation",
-          "url": "https://station.jup.ag/docs/apis",
-          "type": "docs"
-        },
-        {
-          "title": "MEV on Solana Research",
-          "url": "https://www.helius.dev/blog/mev-on-solana",
-          "type": "article"
-        },
-        {
-          "title": "Solana Program Library",
-          "url": "https://spl.solana.com",
-          "type": "docs"
-        }
-      ]
-    },
-    {
-      "id": "agent-allowance-manager",
-      "narrative_id": "ai-payments-infrastructure",
-      "title": "Agent Allowance Manager",
-      "elevator_pitch": "Parents give AI agents spending budgets that automatically pay for kids' educational API calls, tutoring sessions, and learning resources using programmable token extensions.",
-      "description": "Creates programmable spending accounts for AI tutoring agents using Solana's token extensions with built-in velocity limits, category restrictions, and automatic refills. Parents set $10/week budgets for their child's AI agent to access Khan Academy APIs, Wolfram Alpha, language learning services, or pay human tutors via x402 protocol. Agents can't exceed limits or buy restricted content. Real-time spending notifications via Blinks.",
-      "target_users": "Parents of children aged 8-16 who use AI tutoring tools and want controlled spending",
-      "key_features": [
-        "Programmable spending limits with token extensions",
-        "Category-based restrictions (education only)",
-        "Real-time parent notifications via Blinks",
-        "x402 integration for agent payments"
-      ],
-      "tech_stack": [
-        "Anchor smart contracts",
-        "Token Extensions SDK",
-        "x402 protocol integration",
-        "Blinks/Actions SDK"
-      ],
-      "competitive_advantage": "Token extensions enable programmable money with built-in controls that traditional payment rails can't match - Visa/PayPal can't do category restrictions at the protocol level",
+      "competitive_advantage": "Solana's 150ms finality makes real-time Blinks testing viable; no other blockchain has mature Blinks infrastructure to justify dedicated tooling",
       "effort_level": "month",
-      "revenue_model": "2% transaction fee on agent spending + $4.99/month premium features (detailed analytics, custom categories)",
+      "revenue_model": "Freemium SaaS: free for basic Blinks, $29/month for advanced features, $99/month for team collaboration and analytics",
       "similar_projects": [
-        "Greenlight debit cards for kids",
-        "Circle's programmable wallets"
+        "Replit for web dev",
+        "Remix IDE for Ethereum"
       ],
       "skills_required": [
-        "Rust/Anchor smart contracts",
-        "Token Extensions implementation",
         "React/Next.js frontend",
-        "x402 protocol integration"
-      ],
-      "build_guideline": "Week 1: Deploy token extension contracts with transfer hooks for spending limits. Week 2: Build x402 payment integration for agent transactions. Week 3: Create parent dashboard with Blinks notifications. Week 4: Test with 5 families using Claude/ChatGPT agents for homework help.",
-      "bounty_links": [
-        {
-          "title": "Rust Undead Survivor Challenge",
-          "url": "https://superteam.fun/earn/listing/rust-undead-survivor-challenge",
-          "prize": "$800"
-        }
-      ],
-      "colosseum_analysis": {
-        "reference_project": "latinum",
-        "edition": "Breakout",
-        "hackathon_score": 0.89,
-        "relevance": 0.9,
-        "insight": "MCP payment middleware for AI agents"
-      },
-      "seeker_compatible": true,
-      "seeker_features": "NFC for easy parent approval of spending increases, push notifications for real-time spending alerts",
-      "relevant_links": [
-        {
-          "title": "Token Extensions Transfer Hooks",
-          "url": "https://spl.solana.com/token-2022/extensions#transfer-hook",
-          "type": "docs"
-        },
-        {
-          "title": "x402 OpenAI Python Integration",
-          "url": "https://github.com/qntx/x402-openai-python",
-          "type": "repo"
-        },
-        {
-          "title": "Blinks and Actions Documentation",
-          "url": "https://solana.com/docs/advanced/actions",
-          "type": "docs"
-        },
-        {
-          "title": "MCP Server for Wallet Operations",
-          "url": "https://github.com/genoshide/wallet-mcp",
-          "type": "repo"
-        }
-      ]
-    },
-    {
-      "id": "viral-purchase-streams",
-      "narrative_id": "blinks-social-commerce",
-      "title": "Viral Purchase Streams",
-      "elevator_pitch": "Turn every product purchase into a livestream that friends can join via Blinks, creating viral social shopping experiences where viewers earn rewards for driving sales.",
-      "description": "When someone buys anything online, it automatically creates a 60-second livestream that friends can join via Blinks embedded in social posts. Viewers can buy the same item with one click, ask questions, and earn SOL rewards for bringing in more buyers. Sellers get viral distribution, buyers get social validation, and friends get paid for authentic recommendations - turning every purchase into a mini social commerce event.",
-      "target_users": "Gen Z/Millennial online shoppers who share purchases on social media and want to monetize their influence",
-      "key_features": [
-        "Auto-generated purchase streams",
-        "One-click Blink purchases",
-        "Referral reward pools",
-        "Social proof widgets"
-      ],
-      "tech_stack": [
+        "Solana Web3.js integration",
         "Anchor smart contracts",
-        "Next.js/React",
-        "Solana Pay SDK",
-        "WebRTC streaming"
+        "UI/UX design"
       ],
-      "competitive_advantage": "Solana's 150ms finality enables real-time reward distribution during streams, while Blinks make purchasing frictionless across all social platforms",
-      "effort_level": "quarter",
-      "revenue_model": "2% fee on each purchase + premium seller analytics/targeting features",
-      "similar_projects": [
-        "Whatnot live shopping",
-        "Instagram Shopping",
-        "TikTok Shop"
-      ],
-      "skills_required": [
-        "Rust/Anchor smart contracts",
-        "React/Next.js frontend",
-        "WebRTC integration",
-        "Solana Pay integration"
-      ],
-      "build_guideline": "Week 1-2: Build core smart contract for escrow and reward distribution. Week 3-4: Integrate WebRTC streaming with purchase triggers. Week 5-6: Build Blink generation API. Week 7-8: Create seller dashboard and social media integrations. Week 9-10: Add referral tracking and payout mechanisms. Week 11-12: Beta test with 10 sellers and optimize conversion flows.",
+      "build_guideline": "Week 1: Build basic Blinks parser and preview engine. Week 2: Create drag-drop UI builder with common components. Week 3: Implement transaction simulation using Solana RPC. Week 4: Add cross-platform preview and deployment pipeline.",
       "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
@@ -348,7 +232,7 @@
         "insight": "MCP payment middleware for AI agents"
       },
       "seeker_compatible": true,
-      "seeker_features": "Camera for high-quality streams, NFC for instant wallet connection, GPS for location-based product discovery",
+      "seeker_features": "Camera for QR code testing, NFC for hardware wallet integration during development",
       "relevant_links": [
         {
           "title": "Solana Blinks Documentation",
@@ -356,55 +240,55 @@
           "type": "docs"
         },
         {
-          "title": "Solana Pay Integration Guide",
-          "url": "https://docs.solanapay.com",
-          "type": "docs"
+          "title": "Blinks SDK GitHub Repository",
+          "url": "https://github.com/solana-labs/solana-actions",
+          "type": "repo"
         },
         {
-          "title": "Social Commerce Growth Trends",
-          "url": "https://www.helius.dev/blog/solana-blinks-an-introduction",
+          "title": "Helius Blinks Integration Guide",
+          "url": "https://www.helius.dev/blog",
           "type": "article"
         },
         {
-          "title": "WebRTC Streaming Tutorial",
-          "url": "https://github.com/webrtc/samples",
-          "type": "repo"
+          "title": "Jupiter Blinks Implementation",
+          "url": "https://station.jup.ag/docs",
+          "type": "docs"
         }
       ]
     },
     {
-      "id": "validator-as-service",
-      "narrative_id": "institutional-defi-onboarding",
-      "title": "Validator as Service",
-      "elevator_pitch": "One-click validator setup with automated MEV, commission optimization, and institutional compliance reporting for enterprises entering Solana staking.",
-      "description": "White-label validator infrastructure that handles setup, maintenance, MEV capture, and regulatory reporting. Uses ZK compression for cost-effective audit trails and token extensions for automated fee distribution. Institutions get their own branded validator with full compliance dashboards while you handle the technical complexity. Think 'AWS for validators' with built-in yield optimization.",
-      "target_users": "Traditional finance institutions (pension funds, hedge funds, treasury departments) wanting Solana exposure without technical overhead",
+      "id": "multichain-ai-arbitrage",
+      "narrative_id": "ai-trading-automation",
+      "title": "Multichain AI Arbitrage",
+      "elevator_pitch": "AI agent that automatically discovers and executes cross-chain arbitrage opportunities using Solana's 150ms finality as the settlement layer for profit capture.",
+      "description": "Leverages Solana's Alpenglow consensus (150ms finality) and Firedancer's 1M+ TPS to create an AI agent that monitors price discrepancies across 20+ chains, executes arbitrage trades, and settles profits on Solana faster than competitors can react. Uses Jupiter's routing for optimal entry/exit and ZK compression to store trade history cheaply. The speed advantage creates a moat - by the time Ethereum-based bots react, profits are already captured.",
+      "target_users": "Professional arbitrage traders and hedge funds managing $1M+ portfolios",
       "key_features": [
-        "One-click validator deployment",
-        "Automated MEV optimization",
-        "Compliance reporting dashboard",
-        "White-label branding"
+        "Cross-chain price monitoring",
+        "Sub-200ms execution",
+        "AI-powered opportunity scoring",
+        "Automated profit settlement on Solana"
       ],
       "tech_stack": [
-        "Rust validator client",
-        "TypeScript dashboard",
-        "ZK compression for audit logs",
-        "Token extensions for fee splits"
+        "Rust/Anchor for on-chain logic",
+        "Jupiter Swap API",
+        "Wormhole/Allbridge SDKs",
+        "OpenAI/Claude API for ML"
       ],
-      "competitive_advantage": "Solana's 400ms slots enable real-time MEV optimization impossible on Ethereum; ZK compression makes audit trails 5000x cheaper than competitors",
+      "competitive_advantage": "Solana's 150ms finality vs Ethereum's 12-second blocks creates 80x speed advantage for profit capture",
       "effort_level": "quarter",
-      "revenue_model": "20% of validator commission + $5k/month SaaS fee per institutional client",
+      "revenue_model": "20% performance fee on profits generated, minimum $1000/month subscription",
       "similar_projects": [
-        "Kiln validator services",
-        "Figment institutional staking"
+        "1inch Fusion",
+        "CoW Protocol"
       ],
       "skills_required": [
-        "Rust validator operations",
-        "TypeScript/React frontend",
-        "DevOps/Kubernetes",
-        "Regulatory compliance knowledge"
+        "Rust/Anchor smart contracts",
+        "Cross-chain bridge integration",
+        "AI/ML model training",
+        "High-frequency trading systems"
       ],
-      "build_guideline": "Week 1-4: Set up automated validator deployment scripts and monitoring. Week 5-8: Build compliance dashboard with ZK-compressed audit trails. Week 9-12: Integrate MEV optimization and white-label branding. Week 13-16: Beta test with 2-3 institutional partners and refine reporting.",
+      "build_guideline": "Week 1-2: Build price monitoring across 5 major DEXs. Week 3-4: Integrate Jupiter routing and basic arbitrage logic. Week 5-6: Add AI scoring model for opportunity ranking. Week 7-8: Implement cross-chain execution via Wormhole. Week 9-10: Add profit optimization and automated settlement. Week 11-12: Beta test with 10 professional traders, iterate based on PnL feedback.",
       "bounty_links": [],
       "colosseum_analysis": {
         "reference_project": "latinum",
@@ -417,84 +301,222 @@
       "seeker_features": "",
       "relevant_links": [
         {
-          "title": "Solana Validator Documentation",
-          "url": "https://docs.solanalabs.com/operations/setup-a-validator",
-          "type": "docs"
-        },
-        {
-          "title": "ZK Compression Program",
-          "url": "https://www.zkcompression.com/",
-          "type": "docs"
-        },
-        {
-          "title": "Token Extensions Guide",
-          "url": "https://spl.solana.com/token-2022",
-          "type": "docs"
-        },
-        {
-          "title": "Helius MEV Infrastructure",
-          "url": "https://www.helius.dev/blog/solana-mev-an-introduction",
+          "title": "Alpenglow Consensus Upgrade",
+          "url": "https://solana.com/news/alpenglow-consensus-solana",
           "type": "article"
+        },
+        {
+          "title": "Jupiter Swap API Docs",
+          "url": "https://station.jup.ag/docs/apis/swap-api",
+          "type": "docs"
+        },
+        {
+          "title": "Wormhole Cross-chain SDK",
+          "url": "https://docs.wormhole.com/wormhole/quick-start/cross-chain-dev/automatic-relayer",
+          "type": "docs"
+        },
+        {
+          "title": "ClawRouter Trending Repo",
+          "url": "https://github.com/BlockRunAI/ClawRouter",
+          "type": "repo"
         }
       ]
     },
     {
-      "id": "zkproof-security-shield",
-      "narrative_id": "formal-verification-security",
-      "title": "ZKProof Security Shield",
-      "elevator_pitch": "Real-time formal verification that generates ZK proofs of smart contract safety using Solana's ZK compression, making enterprise DeFi security instant and 5000x cheaper.",
-      "description": "Automated formal verification engine that runs continuous safety checks on live Solana programs, generating compressed ZK proofs of contract invariants. Uses ZK compression to store verification states for $0.0001 vs $500 on Ethereum. Protocols get real-time safety badges, institutions get compliance reports, and users see verified safety scores in Blinks. Creates a security reputation layer where verified contracts get better rates and higher TVLs.",
-      "target_users": "DeFi protocol teams seeking institutional adoption and compliance certification",
+      "id": "pumpfun-risk-scanner",
+      "narrative_id": "pump-fun-ecosystem-expansion",
+      "title": "PumpFun Risk Scanner",
+      "elevator_pitch": "Real-time token safety scanner that uses AI to analyze pump.fun launches and flags honeypots, rugs, and wash trading before users lose money.",
+      "description": "Leverages Solana's sub-second finality and ZK compression to track every pump.fun token launch in real-time, analyzing wallet patterns, liquidity behavior, and code signatures. Uses AI to score risk levels and automatically alerts users via Blinks before they trade suspicious tokens. Integrates directly into wallets and trading interfaces as a safety layer.",
+      "target_users": "Retail memecoin traders who've been rugged before and want protection",
       "key_features": [
-        "Continuous formal verification monitoring",
-        "ZK-compressed safety proof storage",
-        "Real-time security badges in Blinks",
-        "Institutional compliance reporting"
+        "Real-time launch monitoring",
+        "AI risk scoring",
+        "Wallet pattern analysis",
+        "Blinks safety alerts"
       ],
       "tech_stack": [
-        "Rust/Anchor for verification engine",
-        "ZK compression SDK",
-        "Solana Actions/Blinks",
-        "TypeScript frontend"
+        "Helius webhooks",
+        "OpenAI API",
+        "Anchor programs",
+        "Next.js frontend"
       ],
-      "competitive_advantage": "ZK compression makes verification 5000x cheaper than Ethereum alternatives, enabling real-time continuous monitoring vs periodic audits",
-      "effort_level": "quarter",
-      "revenue_model": "SaaS subscriptions: $500/month per protocol monitored, $50K enterprise compliance packages",
+      "competitive_advantage": "Solana's 400ms finality enables true real-time analysis before other chains can react",
+      "effort_level": "month",
+      "revenue_model": "Freemium: free basic scans, $29/month for advanced alerts and historical data",
       "similar_projects": [
-        "Certora Prover",
-        "OpenZeppelin Defender"
+        "GoPlus Security API",
+        "Honeypot.is"
       ],
       "skills_required": [
-        "Formal verification/static analysis",
-        "Rust/Anchor smart contracts",
-        "ZK cryptography",
-        "TypeScript/React"
+        "TypeScript/React",
+        "Solana RPC integration",
+        "AI/ML basics",
+        "WebSocket handling"
       ],
-      "build_guideline": "Week 1-2: Research Certora's verification methods, build basic Rust program analyzer. Week 3-4: Integrate ZK compression for proof storage. Week 5-8: Build dashboard showing live verification status. Week 9-10: Create Blinks integration for security badges. Week 11-12: Launch with 3 pilot protocols, gather feedback.",
+      "build_guideline": "Week 1: Set up Helius webhooks for pump.fun launches, build basic token analysis. Week 2: Implement AI risk scoring model using wallet clustering. Week 3: Build Blinks integration for instant alerts. Week 4: Deploy frontend with wallet connections and launch beta.",
       "bounty_links": [],
-      "colosseum_analysis": null,
-      "seeker_compatible": false,
-      "seeker_features": "",
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.7,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": true,
+      "seeker_features": "Push notifications for high-risk token alerts using Seeker's notification system",
       "relevant_links": [
         {
-          "title": "Certora Formal Verification Prover",
-          "url": "https://github.com/Certora/CertoraProver",
-          "type": "repo"
-        },
-        {
-          "title": "Solana ZK Compression Documentation",
-          "url": "https://www.zkcompression.com/",
+          "title": "Helius Enhanced WebSockets docs",
+          "url": "https://docs.helius.dev/webhooks-and-websockets/enhanced-websockets",
           "type": "docs"
         },
         {
-          "title": "Solana Actions and Blinks Guide",
+          "title": "Solana Actions and Blinks docs",
           "url": "https://solana.com/docs/advanced/actions",
           "type": "docs"
         },
         {
-          "title": "Helius ZK Compression Integration",
+          "title": "GoPlus Security API reference",
+          "url": "https://docs.gopluslabs.io/",
+          "type": "docs"
+        },
+        {
+          "title": "Pump.fun trending analyzer repo",
+          "url": "https://github.com/happyboy4ty25/pump-analyzer",
+          "type": "repo"
+        }
+      ]
+    },
+    {
+      "id": "vault-studio-ai",
+      "narrative_id": "meteora-alpha-vaults",
+      "title": "Vault Studio AI",
+      "elevator_pitch": "No-code platform for creating sophisticated yield strategies using AI agents that execute complex DeFi operations across Meteora's alpha vaults with sub-second rebalancing.",
+      "description": "Visual strategy builder where users drag-drop conditions, set risk parameters, and deploy AI agents that manage alpha vault positions automatically. Agents monitor 50+ metrics, execute rebalancing in <150ms using Alpenglow finality, and compound yields across multiple vaults. ZK compression stores strategy history cheaply. Users clone top-performing strategies from leaderboards.",
+      "target_users": "Yield farmers with $10K+ who want sophisticated strategies but lack programming skills",
+      "key_features": [
+        "Visual strategy builder",
+        "AI agent execution",
+        "Real-time rebalancing",
+        "Strategy marketplace"
+      ],
+      "tech_stack": [
+        "Meteora SDK",
+        "Solana AI Agent framework",
+        "React Flow",
+        "Anchor smart contracts"
+      ],
+      "competitive_advantage": "Solana's 150ms finality enables real-time rebalancing impossible on Ethereum; ZK compression makes strategy history storage 5000x cheaper",
+      "effort_level": "quarter",
+      "revenue_model": "2% performance fee on profits generated by deployed strategies, plus premium strategy templates",
+      "similar_projects": [
+        "DeFiLlama yields",
+        "Yearn Finance vaults"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "React/TypeScript frontend",
+        "AI agent development",
+        "DeFi protocol integration"
+      ],
+      "build_guideline": "Week 1-2: Integrate Meteora alpha vault SDK, build basic vault interaction. Week 3-4: Create visual strategy builder with React Flow. Week 5-8: Implement AI agent framework for strategy execution. Week 9-10: Add ZK compressed strategy storage. Week 11-12: Build leaderboard and strategy marketplace.",
+      "bounty_links": [],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.8,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": true,
+      "seeker_features": "NFC for strategy sharing, mobile notifications for rebalancing alerts",
+      "relevant_links": [
+        {
+          "title": "Meteora Alpha Vault SDK",
+          "url": "https://github.com/meteora-ag/alpha-vault-sdk",
+          "type": "repo"
+        },
+        {
+          "title": "Solana AI Agent Framework",
+          "url": "https://solana.com/docs/advanced/ai-agents",
+          "type": "docs"
+        },
+        {
+          "title": "ZK Compression Guide",
           "url": "https://www.helius.dev/blog/solana-zk-compression",
           "type": "article"
+        },
+        {
+          "title": "Meteora Vaults Documentation",
+          "url": "https://docs.meteora.ag/alpha-vault",
+          "type": "docs"
+        }
+      ]
+    },
+    {
+      "id": "ai-wallet-developer-sdk",
+      "narrative_id": "solana-ai-developer-resources",
+      "title": "AI Wallet SDK",
+      "elevator_pitch": "Turn any AI agent into a Solana wallet with one API call, enabling autonomous crypto operations at 150ms finality.",
+      "description": "SDK that gives AI agents native Solana wallet capabilities through simple function calls. Agents can hold SOL/tokens, execute swaps, stake, vote on governance, and interact with any Solana dApp autonomously. Uses ZK compression for cheap agent onboarding ($0.01 vs $5 on Ethereum), token extensions for programmable permissions, and Blinks for seamless cross-platform transactions. Built for the 77% of agent volume already on Solana.",
+      "target_users": "AI agent developers building trading bots, DeFi automation, and autonomous protocols",
+      "key_features": [
+        "One-line agent wallet creation",
+        "Programmable spending limits via token extensions",
+        "Cross-dApp integration with Blinks",
+        "ZK compressed agent state management"
+      ],
+      "tech_stack": [
+        "Rust/Anchor SDK",
+        "TypeScript wrapper",
+        "Solana Web3.js",
+        "Token Extensions program"
+      ],
+      "competitive_advantage": "Solana's 150ms finality enables real-time AI trading that's impossible on slower chains, ZK compression makes agent wallets 5000x cheaper to deploy",
+      "effort_level": "month",
+      "revenue_model": "Per-transaction fees (0.1%), premium features for enterprise agents, white-label licensing",
+      "similar_projects": [
+        "Crossmint wallet SDK",
+        "Dynamic wallet infrastructure"
+      ],
+      "skills_required": [
+        "Rust/Anchor smart contracts",
+        "TypeScript SDK development",
+        "Solana Web3.js",
+        "Token Extensions"
+      ],
+      "build_guideline": "Week 1: Core wallet program in Anchor with basic send/receive. Week 2: Token Extensions integration for programmable limits. Week 3: TypeScript SDK wrapper with simple API. Week 4: Blinks integration for cross-platform support. Week 5: ZK compression for cheap agent deployment. Week 6: Documentation and example AI trading bot. Week 7: Beta testing with 3 agent developers. Week 8: Public launch and developer outreach.",
+      "bounty_links": [],
+      "colosseum_analysis": {
+        "reference_project": "latinum",
+        "edition": "Breakout",
+        "hackathon_score": 0.89,
+        "relevance": 0.8,
+        "insight": "MCP payment middleware for AI agents"
+      },
+      "seeker_compatible": false,
+      "seeker_features": "",
+      "relevant_links": [
+        {
+          "title": "Solana Token Extensions documentation",
+          "url": "https://spl.solana.com/token-2022",
+          "type": "docs"
+        },
+        {
+          "title": "ZK Compression developer guide",
+          "url": "https://solana.com/docs",
+          "type": "docs"
+        },
+        {
+          "title": "Blinks Actions framework",
+          "url": "https://solana.com/docs/advanced/actions",
+          "type": "docs"
+        },
+        {
+          "title": "Anchor framework for Solana programs",
+          "url": "https://www.anchor-lang.com/",
+          "type": "docs"
         }
       ]
     }
